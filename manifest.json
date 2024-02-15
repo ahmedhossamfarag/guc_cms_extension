@@ -1,0 +1,14 @@
+{
+    "manifest_version" : 2,
+    "version" : "1.0",
+    "name" : "GUC CMS",
+    "content_scripts":[
+        {
+            "matches" : ["https://cms.guc.edu.eg/*"],
+            "js": ["main.js"]
+        }
+    ],
+    "icons" :{
+        "48" : "icon.png"
+    }
+}
